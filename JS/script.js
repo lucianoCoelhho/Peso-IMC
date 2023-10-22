@@ -26,7 +26,7 @@ function calcular(){
         }else{
             msg = "com obesidade nivel 2"
         }
-        resultado.innerHTML = `<p> seu IMC e ${formataIMC(imc)} e voce esta ${msg}.</p>`
+        resultado.innerHTML = `<p> seu IMC é: ${formataIMC(imc)} ,e voce esta ${msg}.</p>`
     }
         
 }
