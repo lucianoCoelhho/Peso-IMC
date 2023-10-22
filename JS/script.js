@@ -13,13 +13,13 @@ function calcular(){
     }else{
         imc = (peso / (formataAltura(altura) ** 2)).toFixed(2)
         
-        if(imc < 27){
-            msg = "muito abaixo do peso";
-        }else if(imc >= 27 && imc <= 18.49){
-            msg = "abaixo do peso"
+        if(imc < 17){
+            msg = "muito abaixo do peso ideal";
+        }else if(imc >= 17 && imc <= 18.4){
+            msg = "abaixo do peso ideal"
         }else if(imc >= 18.5 && imc <= 24.99){
             msg = "com peso normal"
-        }else if(imc >= 25 && imc <= 98.49){
+        }else if(imc >= 25 && imc <= 29.99){
             msg = "acima do peso"
         }else if(imc >= 30 && imc <= 34.99){
             msg = "com obesidade nivel 1"
